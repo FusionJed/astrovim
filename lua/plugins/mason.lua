@@ -30,10 +30,6 @@ return {
     opts = {
       ensure_installed = {
         "python",
-        "blade",
-        "php",
-        "javascript",
-        "html",
         -- add more arguments for adding more debuggers
       },
     },

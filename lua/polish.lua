@@ -3,15 +3,25 @@
 -- fit in the normal config locations above can go here
 
 -- Set up custom filetypes
+--vim.filetype.add {
+--  extension = {
+--    foo = "fooscript",
+--  },
+--  filename = {
+--    ["Foofile"] = "fooscript",
+--  },
+--  pattern = {
+--    ["~/%.config/foo/.*"] = "fooscript",
+--    [".*%.blade%.php"] = "blade",
+--  },
+--}
+--
+--@diagnostic disable-next-line: missing-fields
+require("notify").setup {
+  background_colour = "#000000",
+}
 vim.filetype.add {
-  extension = {
-    foo = "fooscript",
-  },
-  filename = {
-    ["Foofile"] = "fooscript",
-  },
   pattern = {
-    ["~/%.config/foo/.*"] = "fooscript",
     [".*%.blade%.php"] = "blade",
   },
 }

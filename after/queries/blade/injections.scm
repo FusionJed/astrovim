@@ -8,7 +8,7 @@
 ((text) @injection.content
     (#has-ancestor? @injection.content "envoy")
     (#set! injection.combined)
-    (#set! injection.language bash))
+    (#set! injection.language zsh))
 
 
 ((php_only) @injection.content
