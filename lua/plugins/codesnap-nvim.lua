@@ -8,8 +8,10 @@ return {
     },
     opts = {
       save_path = "~/Pictures",
+      bg_theme = "grape",
       has_breadcrumbs = true,
-      bg_theme = "bamboo",
+      has_line_numbers = true,
+      watermark = "@FusionJed",
     },
   },
 }
