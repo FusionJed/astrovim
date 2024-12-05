@@ -7,11 +7,11 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.recipes.telescope-lsp-mappings" },
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.pack.php" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.blade" },
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.java" },
   -- import/override with your plugins folder
 }

@@ -56,7 +56,6 @@ return {
           "scss",
           "pug",
           "typescriptreact",
-          "php",
           "svelte",
           "blade.php",
           "blade",

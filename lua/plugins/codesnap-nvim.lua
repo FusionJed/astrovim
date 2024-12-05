@@ -9,7 +9,7 @@ return {
     save_path = "~/Pictures",
     bg_theme = "grape",
     has_breadcrumbs = true,
-    has_line_numbers = true,
+    has_line_number = true,
     watermark = "@FusionJed",
   },
 }
